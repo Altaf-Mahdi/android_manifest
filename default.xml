@@ -14,12 +14,12 @@
   <remote  name="MrTumbles"
            fetch="https://github.com" />
 
-  <project path="build" name="Euphoria-OS/android_build" groups="pdk,tradefed" remote="github" revision="lollipop" >
+  <project path="build" name="Euphoria-OS-Legacy/android_build" groups="pdk,tradefed" remote="github" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="Euphoria-OS/android_bionic" groups="pdk" remote="github" revision="lollipop" />
+  <project path="bionic" name="Euphoria-OS-Legacy/android_bionic" groups="pdk" remote="github" revision="lollipop" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -55,7 +55,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="Euphoria-OS/android_device_lge_hammerhead" groups="device,hammerhead" remote="github" revision="lollipop" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
@@ -252,7 +252,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="Euphoria-OS/android_external_sepolicy" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/sepolicy" name="Euphoria-OS-Legacy/android_external_sepolicy" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -402,7 +402,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Euphoria-OS/android_packages_apps_Settings" remote="github" revision="lollipop" />
+  <project path="packages/apps/Settings" name="Euphoria-OS-Legacy/android_packages_apps_Settings" remote="github" revision="lollipop" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -492,8 +492,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="Euphoria-OS/android_system_core" groups="pdk" remote="github" revision="lollipop" />
-  <project path="system/extras" name="Euphoria-OS/android_system_extras" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/core" name="Euphoria-OS-Legacy/android_system_core" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/extras" name="Euphoria-OS-Legacy/android_system_extras" groups="pdk" remote="github" revision="lollipop" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -517,14 +517,14 @@
   <!-- Custom projects -->
 
   <!-- Euphoria-OS vendor -->
-  <project path="vendor/eos" name="Euphoria-OS/android_vendor_eos" remote="github" revision="lollipop" />
+  <project path="vendor/eos" name="Euphoria-OS-Legacy/android_vendor_eos" remote="github" revision="lollipop" />
 
   <!-- External -->
-  <project path="external/busybox" name="Euphoria-OS/android_external_busybox" remote="github" revision="lollipop" />
+  <project path="external/busybox" name="Euphoria-OS-Legacy/android_external_busybox" remote="github" revision="lollipop" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="Euphoria-OS/android_packages_apps_Apollo" remote="github" revision="lollipop" />
-  <project path="packages/apps/CMFileManager" name="Euphoria-OS/android_packages_apps_CMFileManager" remote="github" revision="lollipop" />
-  <project path="packages/apps/DSPManager" name="Euphoria-OS/android_packages_apps_DSPManager" remote="github" revision="lollipop" />
+  <project path="packages/apps/Apollo" name="Euphoria-OS-Legacy/android_packages_apps_Apollo" remote="github" revision="lollipop" />
+  <project path="packages/apps/CMFileManager" name="Euphoria-OS-Legacy/android_packages_apps_CMFileManager" remote="github" revision="lollipop" />
+  <project path="packages/apps/DSPManager" name="Euphoria-OS-Legacy/android_packages_apps_DSPManager" remote="github" revision="lollipop" />
 
 </manifest>
