@@ -340,9 +340,9 @@
   <project path="hardware/qcom/gps" name="Euphoria-OS-Legacy/android_hardware_qcom_gps" groups="qcom" remote="github" revision="lollipop" />
   <project path="hardware/qcom/keymaster" name="Euphoria-OS-Legacy/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="lollipop" />
   <project path="hardware/qcom/media/default" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop" />
-  <project path="hardware/qcom/media/msm8960" name="Euphoria-OS-Legacy/android_hardware_qcom_media" remote="github" revision="lollipop-aosp" />
-  <project path="hardware/qcom/media/msm8974" name="Euphoria-OS-Legacy/android_hardware_qcom_media" remote="github" revision="lollipop-aosp" />
-  <project path="hardware/qcom/media/msm8084" name="Euphoria-OS-Legacy/android_hardware_qcom_media" remote="github" revision="lollipop-aosp" />
+  <project path="hardware/qcom/media/msm8960" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
+  <project path="hardware/qcom/media/msm8974" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
+  <project path="hardware/qcom/media/msm8084" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
   <project path="hardware/qcom/media-caf/msm8226" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8226" />
   <project path="hardware/qcom/media-caf/msm8960" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8974" />
@@ -423,9 +423,9 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="Euphoria-OS-Legacy/android_packages_providers_Mms" remote="github" revision="lollipop" />
-  <project path="packages/services/Telecomm" name="Euphoria-OS-Legacy/android_packages_providers_Telecomm" remote="github" revision="lollipop" />
-  <project path="packages/services/Telephony" name="Euphoria-OS-Legacy/android_packages_providers_Telephony" remote="github" revision="lollipop" />
+  <project path="packages/services/Mms" name="Euphoria-OS-Legacy/android_packages_services_Mms" remote="github" revision="lollipop" />
+  <project path="packages/services/Telecomm" name="Euphoria-OS-Legacy/android_packages_services_Telecomm" remote="github" revision="lollipop" />
+  <project path="packages/services/Telephony" name="Euphoria-OS-Legacy/android_packages_services_Telephony" remote="github" revision="lollipop" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -520,10 +520,10 @@
 
   <!-- CM Hardware -->
   <project path="frameworks/opt/hardware" name="Euphoria-OS-Legacy/android_frameworks_opt_hardware" remote="github" revision="lollipop" />
-  <project path="hardware/cm" name="Euphoria-OS-Legacy/android_hardware_cm" groups="pdk" remote="github" revision="lollipop" />
+  <project path="hardware/cm" name="Euphoria-OS-Legacy/android_hardware_cm" remote="github" revision="lollipop" />
 
   <!-- Qcom softap -->
-  <project path="system/qcom" name="Euphoria-OS-Legacy/android_system_qcom" groups="pdk" remote="github" revision="lollipop" />
+  <project path="system/qcom" name="Euphoria-OS-Legacy/android_system_qcom" remote="github" revision="lollipop" />
 
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="Euphoria-OS-Legacy/android_packages_apps_Apollo" remote="github" revision="lollipop" />
