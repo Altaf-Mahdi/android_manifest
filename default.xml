@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-5.0.0_r6"
+  <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-j="4" />
 
@@ -340,9 +340,6 @@
   <project path="hardware/qcom/gps" name="Euphoria-OS-Legacy/android_hardware_qcom_gps" groups="qcom" remote="github" revision="lollipop" />
   <project path="hardware/qcom/keymaster" name="Euphoria-OS-Legacy/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="lollipop" />
   <project path="hardware/qcom/media/default" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop" />
-  <project path="hardware/qcom/media/msm8960" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
-  <project path="hardware/qcom/media/msm8974" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
-  <project path="hardware/qcom/media/msm8084" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-aosp" />
   <project path="hardware/qcom/media-caf/msm8226" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8226" />
   <project path="hardware/qcom/media-caf/msm8960" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="Euphoria-OS-Legacy/android_hardware_qcom_media" groups="qcom" remote="github" revision="lollipop-8974" />
@@ -516,7 +513,13 @@
   <project path="vendor/eos" name="Euphoria-OS-Legacy/android_vendor_eos" remote="github" revision="lollipop" />
 
   <!-- External -->
+  <project path="external/bash" name="Euphoria-OS-Legacy/android_external_bash" remote="github" revision="lollipop" />
   <project path="external/busybox" name="Euphoria-OS-Legacy/android_external_busybox" remote="github" revision="lollipop" />
+  <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/f2fs-tools" name="Euphoria-OS-Legacy/android_external_f2fs-tools" remote="github" revision="lollipop" />
+  <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
+  <project path="external/ntfs-3g" name="Euphoria-OS-Legacy/android_external_ntfs-3g" remote="github" revision="lollipop" />
 
   <!-- CM Hardware -->
   <project path="frameworks/opt/hardware" name="Euphoria-OS-Legacy/android_frameworks_opt_hardware" remote="github" revision="lollipop" />
@@ -525,8 +528,12 @@
   <!-- Qcom softap -->
   <project path="system/qcom" name="Euphoria-OS-Legacy/android_system_qcom" remote="github" revision="lollipop" />
 
+  <!-- Qcom sepolicy -->
+  <project path="device/qcom/sepolicy" name="Euphoria-OS-Legacy/android_device_qcom_sepolicy" remote="github" revision="lollipop" />
+
   <!-- Apps -->
   <project path="packages/apps/Apollo" name="Euphoria-OS-Legacy/android_packages_apps_Apollo" remote="github" revision="lollipop" />
+  <project path="packages/apps/BluetoothExt" name="Euphoria-OS-Legacy/android_packages_apps_BluetoothExt" remote="github" revision="lollipop" />
   <project path="packages/apps/CMFileManager" name="Euphoria-OS-Legacy/android_packages_apps_CMFileManager" remote="github" revision="lollipop" />
   <project path="packages/apps/DSPManager" name="Euphoria-OS-Legacy/android_packages_apps_DSPManager" remote="github" revision="lollipop" />
 
