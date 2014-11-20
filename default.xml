@@ -119,7 +119,7 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="Euphoria-OS-Legacy/android_external_f2fs-tools" groups="pdk" remote="github" revision="lollipop" /> 
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -517,7 +517,6 @@
   <project path="external/busybox" name="Euphoria-OS-Legacy/android_external_busybox" remote="github" revision="lollipop" />
   <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" groups="pdk" remote="github" revision="lollipop" />
-  <project path="external/f2fs-tools" name="Euphoria-OS-Legacy/android_external_f2fs-tools" remote="github" revision="lollipop" />
   <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
   <project path="external/ntfs-3g" name="Euphoria-OS-Legacy/android_external_ntfs-3g" remote="github" revision="lollipop" />
 
