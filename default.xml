@@ -304,7 +304,7 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="Euphoria-OS-Legacy/android_frameworks_webview" groups="pdk-cw-fs" remote="github" revision="lollipop" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="Euphoria-OS-Legacy/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lollipop" />
@@ -406,7 +406,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS-Legacy/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -518,7 +518,10 @@
   <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
+  <project path="external/libncurses" name="Euphoria-OS-Legacy/android_external_libncurses" remote="github" revision="lollipop" />
   <project path="external/ntfs-3g" name="Euphoria-OS-Legacy/android_external_ntfs-3g" remote="github" revision="lollipop" />
+  <project path="external/zip" name="Euphoria-OS-Legacy/android_external_zip" remote="github" revision="lollipop" />
+  <project path="external/unrar" name="Euphoria-OS-Legacy/android_external_unrar" remote="github" revision="lollipop" />
 
   <!-- CM Hardware -->
   <project path="frameworks/opt/hardware" name="Euphoria-OS-Legacy/android_frameworks_opt_hardware" remote="github" revision="lollipop" />
