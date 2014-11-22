@@ -383,7 +383,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="Euphoria-OS-Legacy/android_packages_apps_Mms" remote="github" revision="lollipop" />
+  <project path="packages/apps/Mms" name="Euphoria-OS-Legacy/android_packages_apps_Mms" remote="github" revision="lollipop-caf" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="Euphoria-OS-Legacy/android_packages_apps_Nfc" remote="github" revision="lollipop" />
