@@ -517,9 +517,11 @@
   <project path="external/busybox" name="Euphoria-OS-Legacy/android_external_busybox" remote="github" revision="lollipop" />
   <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/ffmpeg" name="Euphoria-OS-Legacy/android_external_ffmpeg" remote="github" revision="lollipop" />
   <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
   <project path="external/libncurses" name="Euphoria-OS-Legacy/android_external_libncurses" remote="github" revision="lollipop" />
   <project path="external/ntfs-3g" name="Euphoria-OS-Legacy/android_external_ntfs-3g" remote="github" revision="lollipop" />
+  <project path="external/stagefright-plugins" name="Euphoria-OS-Legacy/android_external_stagefright-plugins" remote="github" revision="lollipop" />
   <project path="external/zip" name="Euphoria-OS-Legacy/android_external_zip" remote="github" revision="lollipop" />
   <project path="external/unrar" name="Euphoria-OS-Legacy/android_external_unrar" remote="github" revision="lollipop" />
 
