@@ -513,10 +513,14 @@
   <project path="vendor/eos" name="Euphoria-OS-Legacy/android_vendor_eos" remote="github" revision="lollipop" />
 
   <!-- External -->
+  <project path="external/ant-wireless/ant_native" name="Euphoria-OS-Legacy/android_external_ant-wireless_ant_native" remote="github" revision="lollipop" />
+  <project path="external/ant-wireless/antradio-library" name="Euphoria-OS-Legacy/android_external_ant-wireless_antradio-library" remote="github" revision="lollipop" />
+  <project path="external/ant-wireless/ant_service" name="Euphoria-OS-Legacy/android_external_ant-wireless_ant_service" remote="github" revision="lollipop" />
   <project path="external/bash" name="Euphoria-OS-Legacy/android_external_bash" remote="github" revision="lollipop" />
   <project path="external/busybox" name="Euphoria-OS-Legacy/android_external_busybox" remote="github" revision="lollipop" />
-  <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" groups="pdk" remote="github" revision="lollipop" />
-  <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" groups="pdk" remote="github" revision="lollipop" />
+  <project path="external/connectivity" name="Euphoria-OS-Legacy/android_external_connectivity" remote="github" revision="lollipop" />
+  <project path="external/exfat" name="Euphoria-OS-Legacy/android_external_exfat" remote="github" revision="lollipop" />
+  <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" remote="github" revision="lollipop" />
   <project path="external/ffmpeg" name="Euphoria-OS-Legacy/android_external_ffmpeg" remote="github" revision="lollipop" />
   <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
   <project path="external/libncurses" name="Euphoria-OS-Legacy/android_external_libncurses" remote="github" revision="lollipop" />
