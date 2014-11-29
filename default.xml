@@ -11,6 +11,9 @@
   <remote  name="github"
            fetch="https://github.com" />
 
+  <remote  name="Euphoria-OS"
+           fetch="https://github.com" />
+
   <remote  name="MrTumbles"
            fetch="https://github.com" />
 
@@ -529,6 +532,10 @@
   <project path="external/zip" name="Euphoria-OS-Legacy/android_external_zip" remote="github" revision="lollipop" />
   <project path="external/unrar" name="Euphoria-OS-Legacy/android_external_unrar" remote="github" revision="lollipop" />
 
+  <!-- Koush's Superuser -->
+  <project path="external/koush/Superuser" name="Euphoria-OS/android_external_koush_Superuser" remote="Euphoria-OS" revision="lollipop" />
+  <project path="external/koush/Widgets" name="Euphoria-OS/android_external_koush_Widgets" remote="Euphoria-OS" revision="lollipop" />
+
   <!-- CM Hardware -->
   <project path="frameworks/opt/hardware" name="Euphoria-OS-Legacy/android_frameworks_opt_hardware" remote="github" revision="lollipop" />
   <project path="hardware/cm" name="Euphoria-OS-Legacy/android_hardware_cm" remote="github" revision="lollipop" />
@@ -540,9 +547,9 @@
   <project path="device/qcom/sepolicy" name="Euphoria-OS-Legacy/android_device_qcom_sepolicy" remote="github" revision="lollipop" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="Euphoria-OS-Legacy/android_packages_apps_Apollo" remote="github" revision="lollipop" />
+  <project path="packages/apps/Apollo" name="Euphoria-OS/android_packages_apps_Apollo" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/BluetoothExt" name="Euphoria-OS-Legacy/android_packages_apps_BluetoothExt" remote="github" revision="lollipop" />
-  <project path="packages/apps/CMFileManager" name="Euphoria-OS-Legacy/android_packages_apps_CMFileManager" remote="github" revision="lollipop" />
-  <project path="packages/apps/DSPManager" name="Euphoria-OS-Legacy/android_packages_apps_DSPManager" remote="github" revision="lollipop" />
+  <project path="packages/apps/CMFileManager" name="Euphoria-OS/android_packages_apps_CMFileManager" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/apps/DSPManager" name="Euphoria-OS/android_packages_apps_DSPManager" remote="Euphoria-OS" revision="lollipop" />
 
 </manifest>
