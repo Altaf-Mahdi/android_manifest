@@ -175,7 +175,7 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
   <project path="external/libnfc-nci" name="Euphoria-OS-Legacy/android_external_libnfc-nci" groups="pdk" remote="github" revision="lollipop" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
+  <project path="external/libnfc-nxp" name="Euphoria-OS-Legacy/android_external_libnfc-nxp" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -391,7 +391,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="Euphoria-OS-Legacy/android_packages_apps_Nfc" remote="github" revision="lollipop" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="Euphoria-OS/android_packages_apps_PackageInstaller" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="Euphoria-OS-Legacy/android_packages_apps_PhoneCommon" remote="github" revision="lollipop" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -408,7 +408,7 @@
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS-Legacy/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop" />
+  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
@@ -549,6 +549,8 @@
   <project path="packages/apps/Apollo" name="Euphoria-OS/android_packages_apps_Apollo" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/BluetoothExt" name="Euphoria-OS-Legacy/android_packages_apps_BluetoothExt" remote="github" revision="lollipop" />
   <project path="packages/apps/CMFileManager" name="Euphoria-OS/android_packages_apps_CMFileManager" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/apps/CustomWallpapers" name="Euphoria-OS/android_packages_apps_CustomWallpapers" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/DSPManager" name="Euphoria-OS/android_packages_apps_DSPManager" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/apps/OTACenter" name="Euphoria-OS/android_packages_apps_OTACenter" remote="Euphoria-OS" revision="lollipop" />
 
 </manifest>
