@@ -112,7 +112,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="Euphoria-OS-Legacy/android_external_e2fsprogs" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -289,7 +289,7 @@
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="Euphoria-OS-Legacy/android_frameworks_opt_chips" groups="pdk-cw-fs" remote="github" revision="lollipop" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/datetimepicker" name="Euphoria-OS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" remote="Euphoria-OS" revision="lollipop" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="Euphoria-OS-Legacy/android_frameworks_opt_mms" groups="pdk-cw-fs" remote="github" revision="lollipop" />
@@ -366,7 +366,7 @@
   <project path="packages/apps/Bluetooth" name="Euphoria-OS-Legacy/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="lollipop" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calendar" name="Euphoria-OS/android_packages_apps_Calendar" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="Euphoria-OS-Legacy/android_packages_apps_Camera2" remote="github" revision="lollipop" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
