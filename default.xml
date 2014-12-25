@@ -526,12 +526,9 @@
   <project path="external/fuse" name="Euphoria-OS-Legacy/android_external_fuse" remote="github" revision="lollipop" />
   <project path="external/ffmpeg" name="Euphoria-OS-Legacy/android_external_ffmpeg" remote="github" revision="lollipop" />
   <project path="external/google" name="Euphoria-OS/android_external_google" remote="Euphoria-OS" revision="lollipop" />
-  <project path="external/libtruezip" name="Euphoria-OS-Legacy/android_external_libtruezip" remote="github" revision="lollipop" />
   <project path="external/libncurses" name="Euphoria-OS-Legacy/android_external_libncurses" remote="github" revision="lollipop" />
   <project path="external/ntfs-3g" name="Euphoria-OS-Legacy/android_external_ntfs-3g" remote="github" revision="lollipop" />
   <project path="external/stagefright-plugins" name="Euphoria-OS-Legacy/android_external_stagefright-plugins" remote="github" revision="lollipop" />
-  <project path="external/zip" name="Euphoria-OS-Legacy/android_external_zip" remote="github" revision="lollipop" />
-  <project path="external/unrar" name="Euphoria-OS-Legacy/android_external_unrar" remote="github" revision="lollipop" />
 
   <!-- Koush's Superuser -->
   <project path="external/koush/Superuser" name="Euphoria-OS/android_external_koush_Superuser" remote="Euphoria-OS" revision="lollipop" />
@@ -550,7 +547,6 @@
   <!-- Apps -->
   <project path="packages/apps/AudioFX" name="Euphoria-OS/android_packages_apps_AudioFX" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/BluetoothExt" name="Euphoria-OS-Legacy/android_packages_apps_BluetoothExt" remote="github" revision="lollipop" />
-  <project path="packages/apps/CMFileManager" name="Euphoria-OS/android_packages_apps_CMFileManager" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/CustomWallpapers" name="Euphoria-OS/android_packages_apps_CustomWallpapers" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Eleven" name="Euphoria-OS/android_packages_apps_Eleven" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/LockClock" name="Euphoria-OS/android_packages_apps_LockClock" remote="Euphoria-OS" revision="lollipop" />
