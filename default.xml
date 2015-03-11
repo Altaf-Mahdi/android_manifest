@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <default revision="refs/tags/android-5.0.2_r1"
+  <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -75,6 +75,7 @@
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
@@ -90,7 +91,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
@@ -192,12 +192,14 @@
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
   <project path="external/libxml2" name="Euphoria-OS-Legacy/android_external_libxml2" groups="pdk-cw-fs" remote="github" revision="lollipop" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
@@ -223,6 +225,8 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
+  <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
+  <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/openssl" name="Euphoria-OS-Legacy/android_external_openssl" groups="pdk" remote="github" revision="lollipop" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
@@ -305,7 +309,6 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="Euphoria-OS-Legacy/android_frameworks_wilhelm" groups="pdk-cw-fs" remote="github" revision="lollipop" />
@@ -365,9 +368,9 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="Euphoria-OS-Legacy/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="lollipop" />
-  <project path="packages/apps/Browser" name="Euphoria-OS/android_packages_apps_Browser" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/Browser" name="Euphoria-OS/android_packages_apps_Browser" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="Euphoria-OS/android_packages_apps_Calendar" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/Calendar" name="Euphoria-OS/android_packages_apps_Calendar" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="Euphoria-OS-Legacy/android_packages_apps_Camera2" remote="github" revision="lollipop" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -376,10 +379,11 @@
   <project path="packages/apps/ContactsCommon" name="Euphoria-OS-Legacy/android_packages_apps_ContactsCommon" remote="github" revision="lollipop" />
   <project path="packages/apps/DeskClock" name="Euphoria-OS-Legacy/android_packages_apps_DeskClock" remote="github" revision="lollipop" />
   <project path="packages/apps/Dialer" name="Euphoria-OS-Legacy/android_packages_apps_Dialer" remote="github" revision="lollipop" />
-  <project path="packages/apps/Email" name="Euphoria-OS/android_packages_apps_Email" remote="Euphoria-OS" revision="lollipop-5.02" />
-  <project path="packages/apps/Exchange" name="Euphoria-OS/android_packages_apps_Exchange" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/Email" name="Euphoria-OS/android_packages_apps_Email" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/apps/Exchange" name="Euphoria-OS/android_packages_apps_Exchange" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="Euphoria-OS/android_packages_apps_Gallery2" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/Gallery2" name="Euphoria-OS/android_packages_apps_Gallery2" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="Euphoria-OS-Legacy/android_packages_apps_InCallUI" remote="github" revision="lollipop" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -392,7 +396,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="Euphoria-OS-Legacy/android_packages_apps_Nfc" remote="github" revision="lollipop" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="Euphoria-OS/android_packages_apps_PackageInstaller" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/PackageInstaller" name="Euphoria-OS/android_packages_apps_PackageInstaller" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="Euphoria-OS-Legacy/android_packages_apps_PhoneCommon" remote="github" revision="lollipop" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -405,17 +409,18 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="Euphoria-OS-Legacy/android_packages_apps_Stk" remote="github" revision="lollipop" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="Euphoria-OS/android_packages_apps_UnifiedEmail" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/apps/UnifiedEmail" name="Euphoria-OS/android_packages_apps_UnifiedEmail" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/ContactsProvider" name="Euphoria-OS-Legacy/android_packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="github" revision="lollipop" />
-  <project path="packages/providers/DownloadProvider" name="Euphoria-OS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="Euphoria-OS" revision="lollipop-5.02" />
-  <project path="packages/providers/MediaProvider" name="Euphoria-OS/android_packages_providers_MediaProvider" groups="pdk-cw-fs" remote="Euphoria-OS" revision="lollipop-5.02" />
+  <project path="packages/providers/DownloadProvider" name="Euphoria-OS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="Euphoria-OS" revision="lollipop" />
+  <project path="packages/providers/MediaProvider" name="Euphoria-OS/android_packages_providers_MediaProvider" groups="pdk-cw-fs" remote="Euphoria-OS" revision="lollipop" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="Euphoria-OS-Legacy/android_packages_providers_TelephonyProvider" remote="github" revision="lollipop" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
