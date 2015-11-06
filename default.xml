@@ -13,6 +13,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="custom"
+           fetch="https://github.com/Altaf-Mahdi"
+           revision="refs/heads/cm-13.0" />
+
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
