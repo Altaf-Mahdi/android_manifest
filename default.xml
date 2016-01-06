@@ -555,4 +555,8 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
+<!-- START EOS -->
+  <project path="frameworks/opt/cards" name="Euphoria-OS/android_frameworks_opt_cards" remote="github" revision="lollipop-5.1" />
+<!-- END EOS -->
+
 </manifest>
