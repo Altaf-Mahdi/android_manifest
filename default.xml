@@ -23,8 +23,8 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="android_build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" remote="custom" />
+  <project path="build" name="android_build" groups="pdk" remote="custom" >
+    <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
